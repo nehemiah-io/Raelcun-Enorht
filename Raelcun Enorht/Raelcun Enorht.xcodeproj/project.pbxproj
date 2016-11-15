@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1816BB1DDA3AC400FA8376 /* Guns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1816BA1DDA3AC400FA8376 /* Guns.swift */; };
+		4E1816BD1DDA3DB700FA8376 /* Coins .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1816BC1DDA3DB700FA8376 /* Coins .swift */; };
+		4E6C59151DD26AC400CA32F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C59141DD26AC400CA32F0 /* AppDelegate.swift */; };
+		4E6C59191DD26AC400CA32F0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C59181DD26AC400CA32F0 /* GameScene.swift */; };
+		4E6C591B1DD26AC400CA32F0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C591A1DD26AC400CA32F0 /* GameViewController.swift */; };
+		4E6C591E1DD26AC400CA32F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6C591C1DD26AC400CA32F0 /* Main.storyboard */; };
+		4E6C59201DD26AC400CA32F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6C591F1DD26AC400CA32F0 /* Assets.xcassets */; };
+		4E6C59231DD26AC400CA32F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6C59211DD26AC400CA32F0 /* LaunchScreen.storyboard */; };
+		4E6C592E1DD26AC400CA32F0 /* Raelcun_EnorhtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C592D1DD26AC400CA32F0 /* Raelcun_EnorhtTests.swift */; };
+		4E6C59391DD26AC400CA32F0 /* Raelcun_EnorhtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C59381DD26AC400CA32F0 /* Raelcun_EnorhtUITests.swift */; };
+		4E6C59471DD26AE700CA32F0 /* Hero .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C59461DD26AE700CA32F0 /* Hero .swift */; };
+		4E6C59491DD277C100CA32F0 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C59481DD277C100CA32F0 /* Enemy.swift */; };
+		4E6C594B1DD277DC00CA32F0 /* BossMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C594A1DD277DC00CA32F0 /* BossMonster.swift */; };
+		4E6C594D1DD279FB00CA32F0 /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C594C1DD279FB00CA32F0 /* ButtonNode.swift */; };
+		4E6C594F1DD27A5600CA32F0 /* Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C594E1DD27A5600CA32F0 /* Physics.swift */; };
+		4E6C59511DD27CDB00CA32F0 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C59501DD27CDB00CA32F0 /* Bullet.swift */; };
+		4E6C59531DD27E5100CA32F0 /* EnemyBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C59521DD27E5100CA32F0 /* EnemyBullet.swift */; };
+		4E6C59581DD29F7900CA32F0 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C59571DD29F7900CA32F0 /* Joystick.swift */; };
+		4E6C595A1DD2A69800CA32F0 /* CountdownState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C59591DD2A69800CA32F0 /* CountdownState.swift */; };
+		4E6C595D1DD2A75100CA32F0 /* PlayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C595C1DD2A75100CA32F0 /* PlayState.swift */; };
+		4E6C595F1DD2ADE100CA32F0 /* GameOverState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C595E1DD2ADE100CA32F0 /* GameOverState.swift */; };
+		4E6C59611DD2AE1300CA32F0 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C59601DD2AE1300CA32F0 /* GameOver.swift */; };
+		4E6C59631DD2AE6900CA32F0 /* Zpositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C59621DD2AE6900CA32F0 /* Zpositions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E6C592A1DD26AC400CA32F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E6C59091DD26AC400CA32F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E6C59101DD26AC400CA32F0;
+			remoteInfo = "Raelcun Enorht";
+		};
+		4E6C59351DD26AC400CA32F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E6C59091DD26AC400CA32F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E6C59101DD26AC400CA32F0;
+			remoteInfo = "Raelcun Enorht";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E1816BA1DDA3AC400FA8376 /* Guns.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guns.swift; sourceTree = "<group>"; };
+		4E1816BC1DDA3DB700FA8376 /* Coins .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Coins .swift"; sourceTree = "<group>"; };
+		4E6C59111DD26AC400CA32F0 /* Raelcun Enorht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raelcun Enorht.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6C59141DD26AC400CA32F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E6C59181DD26AC400CA32F0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4E6C591A1DD26AC400CA32F0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4E6C591D1DD26AC400CA32F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E6C591F1DD26AC400CA32F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E6C59221DD26AC400CA32F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E6C59241DD26AC400CA32F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6C59291DD26AC400CA32F0 /* Raelcun EnorhtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raelcun EnorhtTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6C592D1DD26AC400CA32F0 /* Raelcun_EnorhtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raelcun_EnorhtTests.swift; sourceTree = "<group>"; };
+		4E6C592F1DD26AC400CA32F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6C59341DD26AC400CA32F0 /* Raelcun EnorhtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raelcun EnorhtUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6C59381DD26AC400CA32F0 /* Raelcun_EnorhtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raelcun_EnorhtUITests.swift; sourceTree = "<group>"; };
+		4E6C593A1DD26AC400CA32F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6C59461DD26AE700CA32F0 /* Hero .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hero .swift"; sourceTree = "<group>"; };
+		4E6C59481DD277C100CA32F0 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		4E6C594A1DD277DC00CA32F0 /* BossMonster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossMonster.swift; sourceTree = "<group>"; };
+		4E6C594C1DD279FB00CA32F0 /* ButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
+		4E6C594E1DD27A5600CA32F0 /* Physics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Physics.swift; sourceTree = "<group>"; };
+		4E6C59501DD27CDB00CA32F0 /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		4E6C59521DD27E5100CA32F0 /* EnemyBullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyBullet.swift; sourceTree = "<group>"; };
+		4E6C59571DD29F7900CA32F0 /* Joystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+		4E6C59591DD2A69800CA32F0 /* CountdownState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownState.swift; sourceTree = "<group>"; };
+		4E6C595C1DD2A75100CA32F0 /* PlayState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayState.swift; sourceTree = "<group>"; };
+		4E6C595E1DD2ADE100CA32F0 /* GameOverState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverState.swift; sourceTree = "<group>"; };
+		4E6C59601DD2AE1300CA32F0 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		4E6C59621DD2AE6900CA32F0 /* Zpositions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zpositions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E6C590E1DD26AC400CA32F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6C59261DD26AC400CA32F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6C59311DD26AC400CA32F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E1816B91DDA3AA600FA8376 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				4E1816BA1DDA3AC400FA8376 /* Guns.swift */,
+				4E1816BC1DDA3DB700FA8376 /* Coins .swift */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
+		4E6C59081DD26AC400CA32F0 = {
+			isa = PBXGroup;
+			children = (
+				4E6C59131DD26AC400CA32F0 /* Raelcun Enorht */,
+				4E6C592C1DD26AC400CA32F0 /* Raelcun EnorhtTests */,
+				4E6C59371DD26AC400CA32F0 /* Raelcun EnorhtUITests */,
+				4E6C59121DD26AC400CA32F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E6C59121DD26AC400CA32F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C59111DD26AC400CA32F0 /* Raelcun Enorht.app */,
+				4E6C59291DD26AC400CA32F0 /* Raelcun EnorhtTests.xctest */,
+				4E6C59341DD26AC400CA32F0 /* Raelcun EnorhtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E6C59131DD26AC400CA32F0 /* Raelcun Enorht */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C59141DD26AC400CA32F0 /* AppDelegate.swift */,
+				4E6C59181DD26AC400CA32F0 /* GameScene.swift */,
+				4E6C591A1DD26AC400CA32F0 /* GameViewController.swift */,
+				4E6C59571DD29F7900CA32F0 /* Joystick.swift */,
+				4E1816B91DDA3AA600FA8376 /* Items */,
+				4E6C59541DD27F2600CA32F0 /* Characters */,
+				4E6C595B1DD2A6A800CA32F0 /* GameStates */,
+				4E6C59561DD29CEE00CA32F0 /* Projectiles */,
+				4E6C59551DD2808400CA32F0 /* Static Factors  */,
+				4E6C591C1DD26AC400CA32F0 /* Main.storyboard */,
+				4E6C591F1DD26AC400CA32F0 /* Assets.xcassets */,
+				4E6C59211DD26AC400CA32F0 /* LaunchScreen.storyboard */,
+				4E6C59241DD26AC400CA32F0 /* Info.plist */,
+			);
+			path = "Raelcun Enorht";
+			sourceTree = "<group>";
+		};
+		4E6C592C1DD26AC400CA32F0 /* Raelcun EnorhtTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C592D1DD26AC400CA32F0 /* Raelcun_EnorhtTests.swift */,
+				4E6C592F1DD26AC400CA32F0 /* Info.plist */,
+			);
+			path = "Raelcun EnorhtTests";
+			sourceTree = "<group>";
+		};
+		4E6C59371DD26AC400CA32F0 /* Raelcun EnorhtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C59381DD26AC400CA32F0 /* Raelcun_EnorhtUITests.swift */,
+				4E6C593A1DD26AC400CA32F0 /* Info.plist */,
+			);
+			path = "Raelcun EnorhtUITests";
+			sourceTree = "<group>";
+		};
+		4E6C59541DD27F2600CA32F0 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C59481DD277C100CA32F0 /* Enemy.swift */,
+				4E6C594A1DD277DC00CA32F0 /* BossMonster.swift */,
+				4E6C59461DD26AE700CA32F0 /* Hero .swift */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
+		4E6C59551DD2808400CA32F0 /* Static Factors  */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C594E1DD27A5600CA32F0 /* Physics.swift */,
+				4E6C59621DD2AE6900CA32F0 /* Zpositions.swift */,
+				4E6C594C1DD279FB00CA32F0 /* ButtonNode.swift */,
+			);
+			name = "Static Factors ";
+			sourceTree = "<group>";
+		};
+		4E6C59561DD29CEE00CA32F0 /* Projectiles */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C59521DD27E5100CA32F0 /* EnemyBullet.swift */,
+				4E6C59501DD27CDB00CA32F0 /* Bullet.swift */,
+			);
+			name = Projectiles;
+			sourceTree = "<group>";
+		};
+		4E6C595B1DD2A6A800CA32F0 /* GameStates */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C59591DD2A69800CA32F0 /* CountdownState.swift */,
+				4E6C595C1DD2A75100CA32F0 /* PlayState.swift */,
+				4E6C595E1DD2ADE100CA32F0 /* GameOverState.swift */,
+				4E6C59601DD2AE1300CA32F0 /* GameOver.swift */,
+			);
+			name = GameStates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E6C59101DD26AC400CA32F0 /* Raelcun Enorht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6C593D1DD26AC400CA32F0 /* Build configuration list for PBXNativeTarget "Raelcun Enorht" */;
+			buildPhases = (
+				4E6C590D1DD26AC400CA32F0 /* Sources */,
+				4E6C590E1DD26AC400CA32F0 /* Frameworks */,
+				4E6C590F1DD26AC400CA32F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Raelcun Enorht";
+			productName = "Raelcun Enorht";
+			productReference = 4E6C59111DD26AC400CA32F0 /* Raelcun Enorht.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E6C59281DD26AC400CA32F0 /* Raelcun EnorhtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6C59401DD26AC400CA32F0 /* Build configuration list for PBXNativeTarget "Raelcun EnorhtTests" */;
+			buildPhases = (
+				4E6C59251DD26AC400CA32F0 /* Sources */,
+				4E6C59261DD26AC400CA32F0 /* Frameworks */,
+				4E6C59271DD26AC400CA32F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E6C592B1DD26AC400CA32F0 /* PBXTargetDependency */,
+			);
+			name = "Raelcun EnorhtTests";
+			productName = "Raelcun EnorhtTests";
+			productReference = 4E6C59291DD26AC400CA32F0 /* Raelcun EnorhtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E6C59331DD26AC400CA32F0 /* Raelcun EnorhtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6C59431DD26AC400CA32F0 /* Build configuration list for PBXNativeTarget "Raelcun EnorhtUITests" */;
+			buildPhases = (
+				4E6C59301DD26AC400CA32F0 /* Sources */,
+				4E6C59311DD26AC400CA32F0 /* Frameworks */,
+				4E6C59321DD26AC400CA32F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E6C59361DD26AC400CA32F0 /* PBXTargetDependency */,
+			);
+			name = "Raelcun EnorhtUITests";
+			productName = "Raelcun EnorhtUITests";
+			productReference = 4E6C59341DD26AC400CA32F0 /* Raelcun EnorhtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E6C59091DD26AC400CA32F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ms;
+				TargetAttributes = {
+					4E6C59101DD26AC400CA32F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+					};
+					4E6C59281DD26AC400CA32F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 4E6C59101DD26AC400CA32F0;
+					};
+					4E6C59331DD26AC400CA32F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 4E6C59101DD26AC400CA32F0;
+					};
+				};
+			};
+			buildConfigurationList = 4E6C590C1DD26AC400CA32F0 /* Build configuration list for PBXProject "Raelcun Enorht" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E6C59081DD26AC400CA32F0;
+			productRefGroup = 4E6C59121DD26AC400CA32F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E6C59101DD26AC400CA32F0 /* Raelcun Enorht */,
+				4E6C59281DD26AC400CA32F0 /* Raelcun EnorhtTests */,
+				4E6C59331DD26AC400CA32F0 /* Raelcun EnorhtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E6C590F1DD26AC400CA32F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6C59231DD26AC400CA32F0 /* LaunchScreen.storyboard in Resources */,
+				4E6C59201DD26AC400CA32F0 /* Assets.xcassets in Resources */,
+				4E6C591E1DD26AC400CA32F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6C59271DD26AC400CA32F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6C59321DD26AC400CA32F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E6C590D1DD26AC400CA32F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6C59471DD26AE700CA32F0 /* Hero .swift in Sources */,
+				4E6C59491DD277C100CA32F0 /* Enemy.swift in Sources */,
+				4E6C59191DD26AC400CA32F0 /* GameScene.swift in Sources */,
+				4E6C59611DD2AE1300CA32F0 /* GameOver.swift in Sources */,
+				4E6C594F1DD27A5600CA32F0 /* Physics.swift in Sources */,
+				4E1816BD1DDA3DB700FA8376 /* Coins .swift in Sources */,
+				4E6C59531DD27E5100CA32F0 /* EnemyBullet.swift in Sources */,
+				4E6C594B1DD277DC00CA32F0 /* BossMonster.swift in Sources */,
+				4E6C595D1DD2A75100CA32F0 /* PlayState.swift in Sources */,
+				4E6C59581DD29F7900CA32F0 /* Joystick.swift in Sources */,
+				4E6C591B1DD26AC400CA32F0 /* GameViewController.swift in Sources */,
+				4E6C595F1DD2ADE100CA32F0 /* GameOverState.swift in Sources */,
+				4E1816BB1DDA3AC400FA8376 /* Guns.swift in Sources */,
+				4E6C59151DD26AC400CA32F0 /* AppDelegate.swift in Sources */,
+				4E6C595A1DD2A69800CA32F0 /* CountdownState.swift in Sources */,
+				4E6C59631DD2AE6900CA32F0 /* Zpositions.swift in Sources */,
+				4E6C594D1DD279FB00CA32F0 /* ButtonNode.swift in Sources */,
+				4E6C59511DD27CDB00CA32F0 /* Bullet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6C59251DD26AC400CA32F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6C592E1DD26AC400CA32F0 /* Raelcun_EnorhtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6C59301DD26AC400CA32F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6C59391DD26AC400CA32F0 /* Raelcun_EnorhtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E6C592B1DD26AC400CA32F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E6C59101DD26AC400CA32F0 /* Raelcun Enorht */;
+			targetProxy = 4E6C592A1DD26AC400CA32F0 /* PBXContainerItemProxy */;
+		};
+		4E6C59361DD26AC400CA32F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E6C59101DD26AC400CA32F0 /* Raelcun Enorht */;
+			targetProxy = 4E6C59351DD26AC400CA32F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E6C591C1DD26AC400CA32F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E6C591D1DD26AC400CA32F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E6C59211DD26AC400CA32F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E6C59221DD26AC400CA32F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E6C593B1DD26AC400CA32F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E6C593C1DD26AC400CA32F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E6C593E1DD26AC400CA32F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Raelcun Enorht/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "niidmogames.Raelcun-Enorht";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4E6C593F1DD26AC400CA32F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Raelcun Enorht/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "niidmogames.Raelcun-Enorht";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4E6C59411DD26AC400CA32F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Raelcun EnorhtTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "niidmogames.Raelcun-EnorhtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raelcun Enorht.app/Raelcun Enorht";
+			};
+			name = Debug;
+		};
+		4E6C59421DD26AC400CA32F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Raelcun EnorhtTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "niidmogames.Raelcun-EnorhtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raelcun Enorht.app/Raelcun Enorht";
+			};
+			name = Release;
+		};
+		4E6C59441DD26AC400CA32F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Raelcun EnorhtUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "niidmogames.Raelcun-EnorhtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Raelcun Enorht";
+			};
+			name = Debug;
+		};
+		4E6C59451DD26AC400CA32F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Raelcun EnorhtUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "niidmogames.Raelcun-EnorhtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Raelcun Enorht";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E6C590C1DD26AC400CA32F0 /* Build configuration list for PBXProject "Raelcun Enorht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6C593B1DD26AC400CA32F0 /* Debug */,
+				4E6C593C1DD26AC400CA32F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E6C593D1DD26AC400CA32F0 /* Build configuration list for PBXNativeTarget "Raelcun Enorht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6C593E1DD26AC400CA32F0 /* Debug */,
+				4E6C593F1DD26AC400CA32F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E6C59401DD26AC400CA32F0 /* Build configuration list for PBXNativeTarget "Raelcun EnorhtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6C59411DD26AC400CA32F0 /* Debug */,
+				4E6C59421DD26AC400CA32F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E6C59431DD26AC400CA32F0 /* Build configuration list for PBXNativeTarget "Raelcun EnorhtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6C59441DD26AC400CA32F0 /* Debug */,
+				4E6C59451DD26AC400CA32F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E6C59091DD26AC400CA32F0 /* Project object */;
+}
