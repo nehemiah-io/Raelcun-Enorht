@@ -11,9 +11,11 @@ import SpriteKit
 
 class Hero: SKSpriteNode{
     
-    var cowboy: SKNode!
-    var cactus: SKNode!
-    var mosquito: SKNode!
+    var runAction: SKAction!
+    var jumpAction: SKAction!
+    var shootAction: SKAction!
+    var isJumping = false
+    var isShooting = false
     var healthPoints:Int = 10
     
     init() {
@@ -27,6 +29,20 @@ class Hero: SKSpriteNode{
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func jump() {
+        if isJumping{
+            isJumping = true
+            run(jumpAction)
+        }
+    }
+    
+    func shoot(){
+        if isShooting{
+            isShooting = true
+            run(shootAction)
+        }
     }
     
     
