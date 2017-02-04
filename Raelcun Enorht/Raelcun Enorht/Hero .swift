@@ -16,7 +16,7 @@ class Hero: SKSpriteNode{
     var shootAction: SKAction!
     var isJumping = false
     var isShooting = false
-    var healthPoints:Int = 10
+    var healthPoints = 10
     
     init() {
         
